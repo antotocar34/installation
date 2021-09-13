@@ -22,7 +22,7 @@ ssh-add ${HOME}/.ssh/github
 
 sudo pacman -Syu --noconfirm github-cli
 gh config set git_protocol ssh
-gh auth login -s delete_repo read:public_key write:public_key repo
+gh auth login -s "delete_repo read:public_key write:public_key repo"
 gh ssh-key add ~/.ssh/github.pub -t "${HOSTNAME}"
 gh repo clone antotocar34/dotfiles ~/.config/nixpkgs1
 
