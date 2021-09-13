@@ -17,6 +17,10 @@ Set compose key as alt gr (right alt) in input settings -> Keyboard -> Advanced 
 
 Delete Desktop folder and change desktop settings so that there is no desktop folder.
 
+
+COMMANDS TO RUN
+_______________
+
 sudo pacman --noconfirm -Syu base-devel binutils yay bash-completion kitty rofi vifm gcc-libs poetry flameshot xf86-input-wacom kcm-wacomtablet whatsapp-for-linux noto-fonts-emoji
 sudo pacman --noconfirm -Rs yakuake okular konversation kate kcalc spectacle manjaro-hello
 yay -Syu neovim-nightly

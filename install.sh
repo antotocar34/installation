@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# Install nix os
 curl -L https://nixos.org/nix/install | sh
 
 . ${HOME}/.nix-profile/etc/profile.d/nix.sh
@@ -20,6 +21,7 @@ ssh-keygen -t rsa -f ${HOME}/.ssh/github -q -P ""
 eval "$(ssh-agent -s)"
 ssh-add ${HOME}/.ssh/github
 
+printf "Installing github cli.\n"
 sudo pacman -Syu --noconfirm github-cli
 gh config set git_protocol ssh
 gh auth login -s "delete_repo read:public_key write:public_key repo"
