@@ -21,9 +21,9 @@ Delete Desktop folder and change desktop settings so that there is no desktop fo
 COMMANDS TO RUN
 _______________
 
-sudo pacman --noconfirm -Syu base-devel binutils yay bash-completion kitty rofi vifm gcc-libs poetry flameshot xf86-input-wacom kcm-wacomtablet whatsapp-for-linux noto-fonts-emoji
+sudo pacman --noconfirm -Syu base-devel binutils yay bash-completion kitty rofi vifm gcc-libs poetry flameshot xf86-input-wacom kcm-wacomtablet whatsapp-for-linux noto-fonts-emoji 
 sudo pacman --noconfirm -Rs yakuake okular konversation kate kcalc spectacle manjaro-hello
-yay -Syu neovim-nightly
+yay -Syu neovim-nightly spotify
 
 ${HOME}/.nix-profile/bin/rclone -v copy tdrive:/backup/data/taskwarrior/ ${HOME}/.task/
 ${HOME}/.nix-profile/bin/rclone -v copy tdrive:/backup/data/timewarrior/ ${HOME}/.timewarrior/
