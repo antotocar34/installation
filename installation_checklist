@@ -27,3 +27,5 @@ yay -Syu neovim-nightly spotify
 
 ${HOME}/.nix-profile/bin/rclone -v copy tdrive:/backup/data/taskwarrior/ ${HOME}/.task/
 ${HOME}/.nix-profile/bin/rclone -v copy tdrive:/backup/data/timewarrior/ ${HOME}/.timewarrior/
+${HOME}/.nix-profile/bin/rclone -v copy tdrive:/backup/Documents ${HOME}/Documents/
+${HOME}/.nix-profile/bin/rclone -v copy tdrive:/backup/Music ${HOME}/Music/
