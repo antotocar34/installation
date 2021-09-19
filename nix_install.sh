@@ -33,13 +33,9 @@ gh repo clone antotocar34/dotfiles ~/.config/nixpkgs
 
 printf "\n"
 echo """
-Please run the following commands:
+Please run the following commands (at the same time if you wish :D):
 
-sudo pacman --noconfirm -Syu base-devel binutils yay bash-completion kitty rofi vifm gcc-libs poetry flameshot xf86-input-wacom kcm-wacomtablet whatsapp-for-linux noto-fonts-emoji
-yay -Syu neovim-nightly
-sudo pacman --noconfirm -Rs yakuake okular konversation kate kcalc spectacle manjaro-hello
+./pacman_install.sh
 
-. ${HOME}/.nix-profile/etc/profile.d/nix.sh
-. ${HOME}/.nix-profile/etc/profile.d/hm-session-vars.sh
-home manager switch
+. ${HOME}/.nix-profile/etc/profile.d/nix.sh && . ${HOME}/.nix-profile/etc/profile.d/hm-session-vars.sh && home manager switch
 """
