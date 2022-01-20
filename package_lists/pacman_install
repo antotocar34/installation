@@ -6,6 +6,7 @@ kitty
 rofi
 vifm
 gcc-libs
+gcc-fortran
 poetry
 flameshot
 xf86-input-wacom
