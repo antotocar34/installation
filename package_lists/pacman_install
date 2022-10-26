@@ -2,13 +2,9 @@ base-devel
 binutils
 yay
 bash-completion
-kitty
-rofi
-vifm
 gcc-libs
 gcc-fortran
 poetry
-flameshot
 xf86-input-wacom
 kcm-wacomtablet
 noto-fonts-emoji
